@@ -12,7 +12,7 @@ $mail->setFrom('jon@equipmoz.org', 'Fonte da Vida');
  $mail->addAddress('jon@equipmoz.org', 'Jon Reinagel');
  $mail->addAddress('fonte@equipmoz.org', 'Fonte Group');
 
-$mail->isHTML(true);
+$mail->isHTML(false);
 $name = $_REQUEST['name'];
 $organization = $_REQUEST['organizacao'];
 
